@@ -44,5 +44,7 @@ namespace Vidly.Controllers
             //return RedirectToAction("Index","Home", new { page=1, sortBy= "Name" } );
             return View(viewModel);
         }
+   
+    
     }
 }
