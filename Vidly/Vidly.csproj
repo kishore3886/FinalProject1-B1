@@ -183,14 +183,36 @@
     <Compile Include="Migrations\202012050131525_addedSubscribedColumn.Designer.cs">
       <DependentUpon>202012050131525_addedSubscribedColumn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012080023425_addedMembershipType.cs" />
+    <Compile Include="Migrations\202012080023425_addedMembershipType.Designer.cs">
+      <DependentUpon>202012080023425_addedMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012080041480_populatedata.cs" />
+    <Compile Include="Migrations\202012080041480_populatedata.Designer.cs">
+      <DependentUpon>202012080041480_populatedata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012120019175_addedmembershipName.cs" />
+    <Compile Include="Migrations\202012120019175_addedmembershipName.Designer.cs">
+      <DependentUpon>202012120019175_addedmembershipName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012120021122_populatemembershiNames.cs" />
+    <Compile Include="Migrations\202012120021122_populatemembershiNames.Designer.cs">
+      <DependentUpon>202012120021122_populatemembershiNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202012120053094_addednullabledob.cs" />
+    <Compile Include="Migrations\202012120053094_addednullabledob.Designer.cs">
+      <DependentUpon>202012120053094_addednullabledob.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModel\NewCustomerViewModel.cs" />
     <Compile Include="ViewModel\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -254,6 +276,8 @@
     <Content Include="Views\Movie\Random.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Customers\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -277,6 +301,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012050131525_addedSubscribedColumn.resx">
       <DependentUpon>202012050131525_addedSubscribedColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012080023425_addedMembershipType.resx">
+      <DependentUpon>202012080023425_addedMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012080041480_populatedata.resx">
+      <DependentUpon>202012080041480_populatedata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012120019175_addedmembershipName.resx">
+      <DependentUpon>202012120019175_addedmembershipName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012120021122_populatemembershiNames.resx">
+      <DependentUpon>202012120021122_populatemembershiNames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012120053094_addednullabledob.resx">
+      <DependentUpon>202012120053094_addednullabledob.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
