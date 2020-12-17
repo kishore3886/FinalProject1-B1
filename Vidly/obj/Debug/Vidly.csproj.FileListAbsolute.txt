@@ -114,3 +114,4 @@ C:\Projects\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedmembershipName.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.populatemembershiNames.resources
 C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.addednullabledob.resources
+C:\Projects\Vidly\Vidly\obj\Debug\Vidly.Migrations.addedrequiredfields.resources

@@ -203,21 +203,24 @@
     <Compile Include="Migrations\202012120053094_addednullabledob.Designer.cs">
       <DependentUpon>202012120053094_addednullabledob.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012170025118_addedrequiredfields.cs" />
+    <Compile Include="Migrations\202012170025118_addedrequiredfields.Designer.cs">
+      <DependentUpon>202012170025118_addedrequiredfields.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
+    <Compile Include="Models\Min18YearsIfMember.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
-    <Compile Include="ViewModel\NewCustomerViewModel.cs" />
+    <Compile Include="ViewModel\CustomerFormViewModel.cs" />
     <Compile Include="ViewModel\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-lumen-4.css" />
-    <Content Include="Content\bootstrap-lumen.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -277,7 +280,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
-    <Content Include="Views\Customers\New.cshtml" />
+    <Content Include="Views\Customers\CustomerForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -316,6 +319,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012120053094_addednullabledob.resx">
       <DependentUpon>202012120053094_addednullabledob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012170025118_addedrequiredfields.resx">
+      <DependentUpon>202012170025118_addedrequiredfields.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
